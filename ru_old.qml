@@ -38,16 +38,16 @@ KeyboardLayout {
         CharacterKey { caption: "й"; captionShifted: "Й"; symView: "1"; symView2: "€"; accents: "йіїј"; accentsShifted: "ЙІЇЈ" }
         CharacterKey { caption: "ц"; captionShifted: "Ц"; symView: "2"; symView2: "£" }
         CharacterKey { caption: "у"; captionShifted: "У"; symView: "3"; symView2: "$"; accents: "уў"; accentsShifted: "УЎ" }
-        CharacterKey { caption: "к"; captionShifted: "К"; symView: "4"; symView2: "¥"; accents: "ќ"; accentsShifted: "Ќ" }
-        CharacterKey { caption: "е"; captionShifted: "Е"; symView: "5"; symView2: "₹"; accents: "еёѣє€"; accentsShifted: "ЕЁѢЄ€" }
-        CharacterKey { caption: "н"; captionShifted: "Н"; symView: "6"; symView2: "¤"; accents: "њ"; accentsShifted: "Њ" }
-        CharacterKey { caption: "г"; captionShifted: "Г"; symView: "7"; symView2: "<"; accents: "ѓ"; accentsShifted: "Ѓ" }
+        CharacterKey { caption: "к"; captionShifted: "К"; symView: "4"; symView2: "¥"; accents: "кќ"; accentsShifted: "КЌ" }
+        CharacterKey { caption: "е"; captionShifted: "Е"; symView: "5"; symView2: "₹"; accents: "ёеѣє€"; accentsShifted: "ЁЕѢЄ€" }
+        CharacterKey { caption: "н"; captionShifted: "Н"; symView: "6"; symView2: "¤"; accents: "нњ"; accentsShifted: "НЊ" }
+        CharacterKey { caption: "г"; captionShifted: "Г"; symView: "7"; symView2: "<"; accents: "ѓгґ"; accentsShifted: "ЃГҐ" }
         CharacterKey { caption: "ш"; captionShifted: "Ш"; symView: "8"; symView2: ">" }
         CharacterKey { caption: "щ"; captionShifted: "Щ"; symView: "9"; symView2: "[" }
-        CharacterKey { caption: "з"; captionShifted: "З"; symView: "0"; symView2: "]"; accents: "ѕ"; accentsShifted: "Ѕ" }
+        CharacterKey { caption: "з"; captionShifted: "З"; symView: "0"; symView2: "]"; accents: "зѕ"; accentsShifted: "ЗЅ" }
         CharacterKey { caption: "х"; captionShifted: "Х"; symView: "№"; symView2: "¢" }
         CharacterKey { caption: "ъ"; captionShifted: "Ъ"; symView: "%"; symView2: "‰" }
-        CharacterKey { caption: "і"; captionShifted: "І"; symView: "≠"; symView2: "-" ; accents: "ї"; accentsShifted: "Ї" }
+        CharacterKey { caption: "і"; captionShifted: "І"; symView: "≠"; symView2: "-" ; accents: "їі"; accentsShifted: "ЇІ" }
     }
 
     KeyboardRow {
@@ -58,10 +58,10 @@ KeyboardLayout {
         CharacterKey { caption: "п"; captionShifted: "П"; symView: "="; symView2: "≈" }
         CharacterKey { caption: "р"; captionShifted: "Р"; symView: "("; symView2: "{" }
         CharacterKey { caption: "о"; captionShifted: "О"; symView: ")"; symView2: "}" }
-        CharacterKey { caption: "л"; captionShifted: "Л"; symView: "\""; symView2: "°"; accents: "љ"; accentsShifted: "Љ" }
-        CharacterKey { caption: "д"; captionShifted: "Д"; symView: "~"; symView2: "·"; accents: "ђ"; accentsShifted: "Ђ" }
-        CharacterKey { caption: "ж"; captionShifted: "Ж"; symView: "!"; symView2: "¡"; accents: "џ"; accentsShifted: "Џ" }
-        CharacterKey { caption: "э"; captionShifted: "Э"; symView: "?"; symView2: "¿"; accents: "эє"; accentsShifted: "ЭЄ" }
+        CharacterKey { caption: "л"; captionShifted: "Л"; symView: "\""; symView2: "°"; accents: "лљ"; accentsShifted: "ЛЉ" }
+        CharacterKey { caption: "д"; captionShifted: "Д"; symView: "~"; symView2: "·"; accents: "ђд"; accentsShifted: "ЂД" }
+        CharacterKey { caption: "ж"; captionShifted: "Ж"; symView: "!"; symView2: "¡"; accents: "џж"; accentsShifted: "ЏЖ" }
+        CharacterKey { caption: "э"; captionShifted: "Э"; symView: "?"; symView2: "¿"; accents: "єэ"; accentsShifted: "ЄЭ" }
         CharacterKey { caption: "ѣ"; captionShifted: "Ѣ"; symView: "—"; symView2: "…" }
     }
 
@@ -76,7 +76,7 @@ KeyboardLayout {
         CharacterKey { caption: "ч"; captionShifted: "Ч"; symView: "&"; symView2: "»"; accents: "ћ"; accentsShifted: "Ћ" }
         CharacterKey { caption: "с"; captionShifted: "С"; symView: "/"; symView2: "÷" }
         CharacterKey { caption: "м"; captionShifted: "М"; symView: "\\"; symView2: "“" }
-        CharacterKey { caption: "и"; captionShifted: "И"; symView: "'"; symView2: "”"; accents: "иіѵ"; accentsShifted: "ИІѴ" }
+        CharacterKey { caption: "и"; captionShifted: "И"; symView: "'"; symView2: "”"; accents: "іиѵ"; accentsShifted: "ІИѴ" }
         CharacterKey { caption: "т"; captionShifted: "Т"; symView: ";"; symView2: "„" }
         CharacterKey { caption: "ь"; captionShifted: "Ь"; symView: ":"; symView2: "©" }
         CharacterKey { caption: "б"; captionShifted: "Б"; symView: "^"; symView2: "®" }
@@ -97,7 +97,11 @@ KeyboardLayout {
 
         CharacterKey {
             caption: "-"
-            captionShifted: "—"
+            captionShifted: "-"
+            accents: "-—"
+            accentsShifted: "-—"
+            symView: "-"
+            symView2: "—"
             implicitWidth: punctuationKeyWidthNarrow
             fixedWidth: !splitActive
         }
@@ -112,6 +116,8 @@ KeyboardLayout {
         CharacterKey {
             caption: "."
             captionShifted: "."
+            accents: "…."
+            accentsShifted: "…."
             implicitWidth: punctuationKeyWidthNarrow
             fixedWidth: !splitActive
             separator: SeparatorState.HiddenSeparator
