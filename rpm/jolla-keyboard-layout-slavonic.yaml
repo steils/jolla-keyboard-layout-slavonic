@@ -1,0 +1,18 @@
+Name: jolla-keyboard-layout-slavonic
+Summary: Slavonic (incl. pre-1918 Russian) Cyrillic keyboard layout
+Description: Keyboard layout for all modern Slavic languages that use Cyrillic script. Supports pre-reform Russian (pre-1918) as well.
+Version: 0.2
+Release: 1
+Group: Qt/Qt
+URL: https://github.com/steils/jolla-keyboard-layout-slavonic
+License: BSD
+Sources:
+    - '%{name}-%{version}.tar.bz2'
+Requires:
+    - jolla-keyboard
+Files:
+    - '%{_datadir}/maliit/plugins/com/jolla/layouts/sla.qml'
+    - '%{_datadir}/maliit/plugins/com/jolla/layouts/layouts_sla.conf'
+Configure: none
+Builder: qtc5
+BuildArch: noarch

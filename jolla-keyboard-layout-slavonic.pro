@@ -1,6 +1,6 @@
 ##################################################################################
 #
-# Copyright (c) 2017, Stefan Strogin <stefan.strogin@gmail.com>
+# Copyright (c) 2017-2018, Stefan Strogin <stefan.strogin@gmail.com>
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -29,15 +29,14 @@
 
 TEMPLATE = aux
 
-target.files = ru_old.qml layouts_ru_old.conf
+target.files = sla.qml layouts_sla.conf
 target.path = /usr/share/maliit/plugins/com/jolla/layouts
 
 INSTALLS += target
 
 DISTFILES += \
-    layouts_ru_old.conf \
-    ru_old.qml \
-    rpm/jolla-keyboard-layout-russian-old.yaml \
+    rpm/jolla-keyboard-layout-slavonic.yaml \
     LICENSE \
     README.md \
-    rpm/jolla-keyboard-layout-rusian-old.yaml
+    layouts_sla.conf \
+    sla.qml \

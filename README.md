@@ -1,4 +1,4 @@
-# jolla-keyboard-layout-russian-old
+# jolla-keyboard-layout-slavonic
 
-Pre-reform (pre-1918) Russian layout for jolla-keyboard.
-Also supports other Cyrillic Slavic letters.
+Keyboard layout for all modern Slavic languages that use Cyrillic script.
+Supports pre-reform Russian (pre-1918) as well.
